@@ -14,13 +14,6 @@ app.post("/student", jsonParser, async (req, res) => {
     res.send("Added students!");
 });
 
-//Express route handler for a POST request to the /allStudents endpoint
-app.post("/allStudents", jsonParser, async(req,res) => {
-    const studentsData = req.body;
-    await storage.setItem("studentsData", studentsData);
-    res.send("Added students!");
-});
-
 //Express route handler for a GET request to the /allStudents endpoint
 app.get("/allStudents", async(req,res) => {
     const studentsData = await storage.getItem("studentsData");
