@@ -51,7 +51,7 @@ nodemon index.js
 - Open Postman.
 - Set the request method to POST.
 - Enter the URL: http://localhost:5000/student.
-- In the "Body" tab, select the "raw" option and set the content type to "JSON (application/json)".
+- In the "Body" tab, select the "raw" option and set the content type to "JSON".
 - Enter student data in JSON format:
 
 ```bash
