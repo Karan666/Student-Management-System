@@ -30,7 +30,7 @@ app.get("/allStudents", async(req,res) => {
         </head>
         <body class="bg-dark">
             <div class="container mt-5">
-                <h1 class="mb-5 text-center">All Students Data</h1>
+                <h1 class="mb-5 text-center shadow">All Students Data</h1>
         `;
 
         Object.values(studentsData).forEach((student) => {
