@@ -69,7 +69,7 @@ nodemon index.js
 
 - Open Postman.
 - Set the request method to GET.
-- Enter the URL: http://localhost:5000/allStudents.
+- Enter the URL: http://localhost:5000/allstudents.
 - Click the "Send" button.
 
 ### **Viewing Specific Student**
