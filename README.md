@@ -9,7 +9,7 @@ Before running the application, ensure you have the following installed:
 - Node.js
 - Express.js
 - node-persist module
-- Bootstrap (CSS and JavaScript)
+- Bootstrap
 - Nodemon (optional)
 
 
